@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.create-note{
+   position: relative;
+   margin: 30px auto 20px auto;
+   padding: 15px;
+   background-color: rgb(255, 255, 255);
+   width: 400px;
+   box-shadow:0 1px 5px rgb(95, 95, 99) ;
+   border-radius: 7px;
+
+}
+.create-note input
+{
+  border: none;
+  width: 100%; 
+  padding: 5px;
+  outline: none;
+  font-size: 1.1em;
+ 
+  
+}
+.create-note textarea
+{
+  border: none;
+  width: 100%; 
+  padding: 5px;
+  outline: none;
+  resize: none;
+  font-size: 1.1em;
+  
+}
+.create-note button{
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  width: 35px;
+  height: 30px;
+  border-radius: 50%;
+}
+.note-app{
+  background-color: white;
+  border-radius: 7px;
+  box-shadow:0 1px 5px rgb(95, 95, 99) ;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note-app h1{
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note-app p{
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.note-app button{
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+
+}
+footer{
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  box-shadow:0 1px 5px rgb(95, 95, 99) ;
+  padding: 5px;
+}
+footer p{
+  color: rgb(153, 156, 156);
+}
